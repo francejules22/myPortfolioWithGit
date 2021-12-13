@@ -283,6 +283,14 @@ animation: drop-letters 3s 0.1s infinite;
     animation: text_reveal 0.5s ease forwards;
     animation-delay: 1s;
 }
+#hero .heading-para{
+    font-size: 2rem;
+    padding-top: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #hero h1:nth-child(1){
    animation-delay: 1s;
 }
@@ -339,7 +347,7 @@ animation: drop-letters 3s 0.1s infinite;
 
 /*Section 2 Services*/
 #services{
-    background: linear-gradient(to right, rgb(27, 62, 128) , rgb(129, 13, 81));
+    background: #000000;
 }
 #services .services{
     flex-direction: column;
@@ -427,7 +435,7 @@ animation: drop-letters 3s 0.1s infinite;
 
 /*Section 3 Projects*/
 #projects{
-    background: linear-gradient(to right, rgb(27, 62, 128) , rgb(129, 13, 81));
+    background: #000000;
 }
 .section-title{
     padding-top: 5rem;
@@ -594,7 +602,7 @@ tr:nth-child(odd){
     color: white;
 }
 .section{
-     background: linear-gradient(to right, rgb(27, 62, 128) , rgb(129, 13, 81));
+     background: #000000;
      padding: 15px;
 }
 li{
@@ -625,7 +633,7 @@ progress::-moz-progress-bar{
 
 /*Section 5 Personal Job*/
 #job{
-    background: linear-gradient(to right, rgb(27, 62, 128) , rgb(129, 13, 81));
+     background: #000000;
 }
 
 #job .job{
@@ -656,7 +664,7 @@ progress::-moz-progress-bar{
     margin-bottom: 20px;
 }
 #job .col-right .resume{
-    color: black;
+    color: #ffffff;
     margin-bottom: 50px;
     padding: 10px 20px;
     font-size: 2rem;
@@ -707,7 +715,7 @@ progress::-moz-progress-bar{
     place-items: center;
     font-family: 'Montserrat' , sans-serif;
     height: 100vh;
-    background: linear-gradient(to right, rgb(27, 62, 128) , rgb(129, 13, 81));
+     background: #000000;
 }
 .account-heading{
     padding-bottom: 50px;
@@ -901,7 +909,7 @@ button.ghost{
 
 /*Section 7 Footer*/
 .footer__container {
-    background: linear-gradient(to right, rgb(27, 62, 128) , rgb(129, 13, 81));
+    background: #000000;
     padding: 5rem 0;
     display: flex;
     flex-direction: column;
@@ -989,7 +997,27 @@ button.ghost{
     font-size: 27px;
     padding-top: 15px;
   }
+
+/*Scroll Up */
+.scroll-btn{
+    position: fixed;
+    right: 5rem;
+    bottom: 5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #498cca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #000;
+    box-shadow: 0 0.1rem 0.6rem rgba(0,0,0,0.2);
+    border-radius: 0.3rem; 
+}
+
 /*End of Section 7 Footer*/
+
+
 
 /* Keyframes*/
 /*Header Section*/

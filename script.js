@@ -26,7 +26,14 @@ signInButton.addEventListener('click', () => {
 })
 //End Contact Menu (SignIn & SignUp)
 
-
+//Scroll Up
+document.querySelector('.scroll-btn').addEventListener('click', () => {
+  document.querySelector('html').style.scrollBehavior = "smooth";
+  setTimeout(() => {
+    document.querySelector('html').style.scrollBehavior = "unset";
+  },1000);
+})
+//End of Scroll Up
 
 //Animation using GSAP Scroll Trigger 
 gsap.registerPlugin(ScrollTrigger);
