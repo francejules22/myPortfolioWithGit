@@ -284,12 +284,13 @@ animation: drop-letters 3s 0.1s infinite;
     animation-delay: 1s;
 }
 #hero .heading-para{
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-top: 3rem;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-style:  "Monserrat" ,sans-serif; 
 }
 #hero h1:nth-child(1){
    animation-delay: 1s;

@@ -12,11 +12,3 @@ document.querySelector(".hamburger-menu").addEventListener ("click" , () => {
 });
 //End of Hamburger Menu
 
-//Scroll UP
-document.querySelector(".scroll-btn").addEventListener("click" , () =>{
-    document.querySelector("html").style.scrollBehavior ="smooth" ;
-    setTimeout(() =>{
-      document.querySelector("html").style.scrollBehavior ="unset" ;
-    },1000);
-});
-//End Of Scroll UP/

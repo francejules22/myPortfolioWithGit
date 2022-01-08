@@ -283,14 +283,17 @@ animation: drop-letters 3s 0.1s infinite;
     animation: text_reveal 0.5s ease forwards;
     animation-delay: 1s;
 }
+
 #hero .heading-para{
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-top: 3rem;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-style:  "Monserrat" ,sans-serif; 
 }
+
 #hero h1:nth-child(1){
    animation-delay: 1s;
 }
@@ -999,6 +1002,26 @@ button.ghost{
   }
 /*End of Section 7 Footer*/
 
+
+/*Scroll Up */
+.scroll-btn{
+    position: fixed;
+    right: 5rem;
+    bottom: 5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #498cca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #000;
+    box-shadow: 0 0.1rem 0.6rem rgba(0,0,0,0.2);
+    border-radius: 0.3rem; 
+}
+
+
+
 /* Keyframes*/
 /*Header Section*/
 @keyframes hamburger_puls{
@@ -1246,3 +1269,4 @@ button.ghost{
 
 }
 /*End of Responsive Website*/
+
